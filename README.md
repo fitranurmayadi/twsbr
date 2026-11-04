@@ -19,8 +19,8 @@ similar robot.
 [![TWSBR on the oval test track. Click to watch on YouTube](https://img.youtube.com/vi/iszBgYYvSfs/maxresdefault.jpg)](https://www.youtube.com/watch?v=iszBgYYvSfs)
 
 Test run from September 2024 (20 s, [YouTube](https://www.youtube.com/watch?v=iszBgYYvSfs)): the
-robot stays upright while driving on an oval black-line track. Following the line itself was still
-being tuned (see [Results so far](#results-so-far)).
+robot balances and follows an oval black-line track. Like any PID loop it weaves a little around
+the line, but it stays on it.
 
 ## Contents
 
@@ -167,10 +167,10 @@ Testing stopped in September 2024, at the tuning stage. All 11 logged runs are i
   10 s run. In the best run it tracks the angle setpoint within about ±1°.
 - **The speed loop wasn't finished.** In the best runs speed settles around 0.3–0.5 m/s against a
   1 m/s setpoint (large steady-state error). In others it saturates.
-- **Line following is the open part.** On the oval test track (see the [demo](#demo)) the robot
-  balances and drives, but it doesn't hold the black line reliably yet. The logged line position
-  stays at 0 in every run, so the sensor reading should be checked before tuning the line-loop
-  gains (Kp 5–7.5, Kd 12–20) any further.
+- **Line following works.** On the oval test track (see the [demo](#demo)) the robot stays on the
+  line while balancing. It weaves a little around the line, as expected from PID steering. The
+  telemetry logs don't capture it, though: the logged line position reads 0 in every run, so there
+  are no line-loop plots yet (gains used: Kp 5–7.5, Kd 12–20).
 
 ## Known issues
 
@@ -200,7 +200,7 @@ Found while cleaning up the code. The firmware logic is kept exactly as it was t
 The ideas from the project plan that are still open:
 
 1. Fix the speed measurement (scaling, atomic read) and finish tuning the speed loop.
-2. Check the QTR-8A line-position reading, then tune the steering loop on the oval track.
+2. Log the line position in the telemetry, then tune the steering loop for tighter tracking.
 3. Compute rise time, overshoot, settling time and steady-state error from the CSV logs.
 4. Tune gains from the browser over Wi-Fi instead of re-flashing.
 5. Compare against a complementary filter and other controllers (LQR, fuzzy, sliding mode). See
@@ -235,9 +235,9 @@ QTR-8A, dan motor BLDC dengan encoder. Disertakan juga server Flask untuk mereka
 setiap percobaan lewat Wi-Fi sebagai alat bantu tuning PID.
 
 Status terakhir (September 2024): robot sudah bisa menyeimbangkan diri (Kp 25, Ki 0,001,
-Kd 0,5). Loop kecepatan belum selesai dituning. Line following sudah dicoba di lintasan oval
-([video demo](https://www.youtube.com/watch?v=iszBgYYvSfs)), tapi robot belum konsisten
-mengikuti garis.
+Kd 0,5) dan mengikuti garis di lintasan oval
+([video demo](https://www.youtube.com/watch?v=iszBgYYvSfs)). Gerakannya sedikit berkelok di
+sekitar garis, wajar untuk kontrol PID, tapi tetap di garis. Loop kecepatan belum selesai dituning.
 Rencana proyek lengkap ada di [docs/project-plan.md](docs/project-plan.md).
 
 ## Author
