@@ -14,12 +14,17 @@ A personal project from 2024. This repository collects the hardware design, firm
 tools, early test results and the project plan, as an open reference for anyone building a
 similar robot.
 
-<p align="center">
-  <img src="docs/images/mechanical.png" alt="Robot mechanical design, front and side view" width="640">
-</p>
+## Demo
+
+[![TWSBR on the oval test track. Click to watch on YouTube](https://img.youtube.com/vi/iszBgYYvSfs/maxresdefault.jpg)](https://www.youtube.com/watch?v=iszBgYYvSfs)
+
+Test run from September 2024 (20 s, [YouTube](https://www.youtube.com/watch?v=iszBgYYvSfs)): the
+robot stays upright while driving on an oval black-line track. Following the line itself was still
+being tuned (see [Results so far](#results-so-far)).
 
 ## Contents
 
+- [Demo](#demo)
 - [How it works](#how-it-works)
 - [Hardware](#hardware)
 - [Firmware](#firmware)
@@ -62,6 +67,10 @@ tips past ±45°.
 </details>
 
 ## Hardware
+
+<p align="center">
+  <img src="docs/images/mechanical.png" alt="Robot mechanical design, front and side view" width="640">
+</p>
 
 | Part | Notes |
 |---|---|
@@ -158,8 +167,10 @@ Testing stopped in September 2024, at the tuning stage. All 11 logged runs are i
   10 s run. In the best run it tracks the angle setpoint within about ±1°.
 - **The speed loop wasn't finished.** In the best runs speed settles around 0.3–0.5 m/s against a
   1 m/s setpoint (large steady-state error). In others it saturates.
-- **Line following wasn't evaluated on a track yet.** The logged line position stays at 0, so the
-  line loop gains (Kp 5–7.5, Kd 12–20) are untested starting values.
+- **Line following is the open part.** On the oval test track (see the [demo](#demo)) the robot
+  balances and drives, but it doesn't hold the black line reliably yet. The logged line position
+  stays at 0 in every run, so the sensor reading should be checked before tuning the line-loop
+  gains (Kp 5–7.5, Kd 12–20) any further.
 
 ## Known issues
 
@@ -189,7 +200,7 @@ Found while cleaning up the code. The firmware logic is kept exactly as it was t
 The ideas from the project plan that are still open:
 
 1. Fix the speed measurement (scaling, atomic read) and finish tuning the speed loop.
-2. Run line following on a black-on-white track and tune the steering loop.
+2. Check the QTR-8A line-position reading, then tune the steering loop on the oval track.
 3. Compute rise time, overshoot, settling time and steady-state error from the CSV logs.
 4. Tune gains from the browser over Wi-Fi instead of re-flashing.
 5. Compare against a complementary filter and other controllers (LQR, fuzzy, sliding mode). See
@@ -224,7 +235,9 @@ QTR-8A, dan motor BLDC dengan encoder. Disertakan juga server Flask untuk mereka
 setiap percobaan lewat Wi-Fi sebagai alat bantu tuning PID.
 
 Status terakhir (September 2024): robot sudah bisa menyeimbangkan diri (Kp 25, Ki 0,001,
-Kd 0,5). Loop kecepatan belum selesai dituning, dan line following belum diuji di lintasan.
+Kd 0,5). Loop kecepatan belum selesai dituning. Line following sudah dicoba di lintasan oval
+([video demo](https://www.youtube.com/watch?v=iszBgYYvSfs)), tapi robot belum konsisten
+mengikuti garis.
 Rencana proyek lengkap ada di [docs/project-plan.md](docs/project-plan.md).
 
 ## Author
