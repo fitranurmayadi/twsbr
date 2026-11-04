@@ -1,0 +1,25 @@
+# Local credentials (copy secrets.example.h -> secrets.h)
+secrets.h
+
+# Telemetry server output
+server/statistic/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Arduino / PlatformIO build output
+build/
+.pio/
+
+# Office lock / temp files
+~$*
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

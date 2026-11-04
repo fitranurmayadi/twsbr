@@ -1,0 +1,5 @@
+* text=auto
+*.ino linguist-language=C++
+*.png binary
+*.jpg binary
+*.fzz binary

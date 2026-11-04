@@ -1,0 +1,733 @@
+TY  - JOUR
+AU  - Mehrvarz, Amin
+AU  - Khodaei, Mohammad Javad
+AU  - Clark, William
+AU  - Jalili, Nader
+DA  - 2019/10//
+DO  - 10.1115/IMECE2020-24078
+PY  - 2019
+TI  - A New Dynamic Model of a Two-Wheeled Two-Flexible-Beam Inverted Pendulum Robot
+UR  - http://arxiv.org/abs/1910.01596
+UR  - http://dx.doi.org/10.1115/IMECE2020-24078
+ER  - 
+
+TY  - JOUR
+AU  - Cao, Muqing
+AU  - Xu, Xinhang
+AU  - Yuan, Shenghai
+AU  - Cao, Kun
+AU  - Liu, Kangcheng
+AU  - Xie, Lihua
+DA  - 2023/3//
+PY  - 2023
+TI  - DoubleBee: A Hybrid Aerial-Ground Robot with Two Active Wheels
+UR  - http://arxiv.org/abs/2303.05075
+ER  - 
+
+TY  - JOUR
+AU  - Kawaharazuka, Kento
+AU  - Makabe, Tasuku
+AU  - Makino, Shogo
+AU  - Tsuzuki, Kei
+AU  - Nagamatsu, Yuya
+AU  - Asano, Yuki
+AU  - Shirai, Takuma
+AU  - Sugai, Fumihito
+AU  - Okada, Kei
+AU  - Kawasaki, Koji
+AU  - Inaba, Masayuki
+DA  - 2024/4//
+DO  - 10.1109/HUMANOIDS.2018.8624923
+PY  - 2024
+TI  - TWIMP: Two-Wheel Inverted Musculoskeletal Pendulum as a Learning Control Platform in the Real World with Environmental Physical Contact
+UR  - http://arxiv.org/abs/2404.14080
+UR  - http://dx.doi.org/10.1109/HUMANOIDS.2018.8624923
+ER  - 
+
+TY  - RPRT
+AU  - Anonymous (undergraduate final report)
+PY  - 2021
+TI  - RANCANG BANGUN SELF BALANCING ROBOT LINE FOLLOWER MENGGUNAKAN MIKROKONTROLER ARDUINO NANO
+ER  - 
+
+TY  - RPRT
+AU  - Al Morshed, Md Abid
+AU  - Maruf, Rahman
+TI  - Electromechanical System Design for Self-Balancing Robot
+ER  - 
+
+TY  - JOUR
+AU  - Tran, Khanh G.
+AU  - Nguyen, Nam H.
+AU  - Nguyen, Phuoc D.
+DO  - 10.1155/2020/7205737
+PB  - Hindawi Limited
+PY  - 2020
+TI  - Observer-Based Controllers for Two-Wheeled Inverted Robots with Unknown Input Disturbance and Model Uncertainty
+T2  - Journal of Control Science and Engineering
+VL  - 2020
+ER  - 
+
+TY  - JOUR
+AU  - Tian, Jie
+AU  - Ding, Jie
+AU  - Tai, Yongpeng
+AU  - Ma, Zheshu
+DO  - 10.1109/ACCESS.2020.3019538
+PB  - Institute of Electrical and Electronics Engineers Inc.
+PY  - 2020
+SP  - 158839
+EP  - 158851
+TI  - Control of different-axis two-wheeled self-balancing vehicles
+T2  - IEEE Access
+VL  - 8
+ER  - 
+
+TY  - JOUR
+AU  - Mahmoud, Magdi S.
+AU  - Nasir, Mohammad T.
+DA  - 2017/10//
+DO  - 10.1109/JAS.2017.7510613
+IS  - 4
+PB  - Institute of Electrical and Electronics Engineers Inc.
+PY  - 2017
+SP  - 628
+EP  - 638
+TI  - Robust control design of wheeled inverted pendulum assistant robot
+T2  - IEEE/CAA Journal of Automatica Sinica
+VL  - 4
+ER  - 
+
+TY  - JOUR
+AU  - Nghia, Vo Ba Viet
+AU  - Van Thien, Tran
+AU  - Son, Nguyen Ngoc
+AU  - Long, Mai Thang
+DA  - 2022/6//
+DO  - 10.1007/s40435-021-00832-1
+IS  - 3
+PB  - Springer Science and Business Media Deutschland GmbH
+PY  - 2022
+SP  - 771
+EP  - 784
+TI  - Adaptive neural sliding mode control for two wheel self balancing robot
+T2  - International Journal of Dynamics and Control
+VL  - 10
+ER  - 
+
+TY  - JOUR
+AU  - Lee, Sungho
+AU  - Yoon, Sungwoon
+AU  - Jeong, Yonghwan
+AU  - Seo, Jaehong
+AU  - Park, Sangshin
+AU  - Han, Sangchul
+AU  - Kim, Jin Tak
+AU  - Kim, Jinhyeon
+AU  - Choi, Hyouk Ryeol
+AU  - Cho, Jungsan
+DA  - 2023/7//
+DO  - 10.1109/LRA.2023.3279585
+IS  - 7
+PB  - Institute of Electrical and Electronics Engineers Inc.
+PY  - 2023
+SP  - 4004
+EP  - 4011
+TI  - Design and Implementation of a Two-Wheeled Inverted Pendulum Robot With a Sliding Mechanism for Off-Road Transportation
+T2  - IEEE Robotics and Automation Letters
+VL  - 8
+ER  - 
+
+TY  - JOUR
+AU  - Hu, Chuan
+AU  - Liu, Minhao
+AU  - Wang, Lei
+AU  - Pang, Hui
+DA  - 2024/5//
+DO  - 10.1016/j.isatra.2024.02.031
+PB  - ISA - Instrumentation, Systems, and Automation Society
+PY  - 2024
+SP  - 114
+EP  - 127
+TI  - Optimization-based adaptive trajectory tracking controller design of self-balanced vehicle with asymptotic prescribed performance
+T2  - ISA Transactions
+VL  - 148
+ER  - 
+
+TY  - JOUR
+AU  - Huang, Jian
+AU  - Ri, Songhyok
+AU  - Liu, Lei
+AU  - Wang, Yongji
+AU  - Kim, Jiyong
+AU  - Pak, Gyongchol
+DA  - 2015/11//
+DO  - 10.1109/TCST.2015.2404897
+IS  - 6
+PB  - Institute of Electrical and Electronics Engineers Inc.
+PY  - 2015
+SP  - 2400
+EP  - 2407
+TI  - Nonlinear Disturbance Observer-Based Dynamic Surface Control of Mobile Wheeled Inverted Pendulum
+T2  - IEEE Transactions on Control Systems Technology
+VL  - 23
+ER  - 
+
+TY  - JOUR
+AU  - Hsu, Chun Fei
+AU  - Kao, Wei Fu
+DA  - 2020/9//
+DO  - 10.1007/s40435-020-00617-y
+IS  - 3
+PB  - Springer
+PY  - 2020
+SP  - 851
+EP  - 866
+TI  - Double-loop fuzzy motion control with CoG supervisor for two-wheeled self-balancing assistant robots
+T2  - International Journal of Dynamics and Control
+VL  - 8
+ER  - 
+
+TY  - JOUR
+AU  - Haitao, Zhou
+AU  - Feng, Haibo
+AU  - Xu, Li
+AU  - Zhang, Songyuan
+AU  - Fu, Yili
+DA  - 2021/3//
+DO  - 10.1108/IR-03-2020-0064
+IS  - 1
+PB  - Emerald Group Holdings Ltd.
+PY  - 2021
+SP  - 29
+EP  - 44
+TI  - Control of the two-wheeled inverted pendulum (TWIP) robot in presence of model uncertainty and motion restriction
+T2  - Industrial Robot
+VL  - 48
+ER  - 
+
+TY  - CONF
+AU  - Gonzalez, Carlos
+AU  - Barasuol, Victor
+AU  - Frigerio, Marco
+AU  - Featherstone, Roy
+AU  - Caldwell, Darwin G.
+AU  - Semini, Claudio
+DA  - 2020/10//
+DO  - 10.1109/IROS45743.2020.9341743
+PB  - Institute of Electrical and Electronics Engineers Inc.
+PY  - 2020
+SN  - 9781728162126
+SP  - 3649
+EP  - 3656
+TI  - Line walking and balancing for legged robots with point feet
+T2  - IEEE International Conference on Intelligent Robots and Systems
+ER  - 
+
+TY  - JOUR
+AU  - Goher, Khaled M.
+AU  - Fadlallah, Sulaiman O.
+DA  - 2019/8//
+DO  - 10.1007/s11633-019-1172-0
+IS  - 4
+PB  - Chinese Academy of Sciences
+PY  - 2019
+SP  - 511
+EP  - 533
+TI  - Control of a Two-wheeled Machine with Two-directions Handling Mechanism Using PID and PD-FLC Algorithms
+T2  - International Journal of Automation and Computing
+VL  - 16
+ER  - 
+
+TY  - GEN
+AU  - Chan, Ronald Ping Man
+AU  - Stol, Karl A.
+AU  - Halkyard, C. Roger
+DA  - 2013/4//
+DO  - 10.1016/j.arcontrol.2013.03.004
+IS  - 1
+PY  - 2013
+SP  - 89
+EP  - 103
+TI  - Review of modelling and control of two-wheeled robots
+T2  - Annual Reviews in Control
+VL  - 37
+ER  - 
+
+TY  - JOUR
+AU  - Gandarilla, Isaac
+AU  - Montoya-Cháirez, Jorge
+AU  - Santibáñez, Víctor
+AU  - Aguilar-Avelar, Carlos
+AU  - Moreno-Valenzuela, Javier
+DA  - 2022/11//
+DO  - 10.1016/j.jestch.2022.101259
+PB  - Elsevier B.V.
+PY  - 2022
+TI  - Trajectory tracking control of a self-balancing robot via adaptive neural networks
+T2  - Engineering Science and Technology, an International Journal
+VL  - 35
+ER  - 
+
+TY  - JOUR
+AU  - Shen, Junjie
+AU  - Hong, Dennis
+DA  - 2020/1//
+PY  - 2020
+TI  - OmBURo: A Novel Unicycle Robot with Active Omnidirectional Wheel
+UR  - http://arxiv.org/abs/2001.07856
+ER  - 
+
+TY  - JOUR
+AU  - Rigatos, G.
+AU  - Busawon, K.
+AU  - Pomares, J.
+AU  - Abbaszadeh, M.
+DA  - 2020/1//
+DO  - 10.1017/S0263574719000456
+IS  - 1
+PB  - Cambridge University Press
+PY  - 2020
+SP  - 29
+EP  - 47
+TI  - Nonlinear Optimal Control for the Wheeled Inverted Pendulum System
+T2  - Robotica
+VL  - 38
+ER  - 
+
+TY  - JOUR
+AU  - Rahman, MD Muhaimin
+AU  - Rashi, SM Hasanur
+AU  - Hassan, KM Rafidh
+AU  - Hossain, M. M.
+DA  - 2018/7//
+DO  - 10.1063/1.5044373
+PY  - 2018
+TI  - Comparison of Different Control Theories on a Two Wheeled Self Balancing Robot
+UR  - http://arxiv.org/abs/1807.08243
+UR  - http://dx.doi.org/10.1063/1.5044373
+ER  - 
+
+TY  - RPRT
+AU  - Erfan Arefin, Sayed
+TI  - Simple Two-wheel Self-Balancing Robot Implementation
+ER  - 
+
+TY  - JOUR
+AU  - Kanishk
+AU  - Kumar, Rushil
+AU  - Rastogi, Vikas
+AU  - Kumar, Ajeet
+DA  - 2021/11//
+PY  - 2021
+TI  - Analysis of Model-Free Reinforcement Learning Control Schemes on self-balancing Wheeled Extendible System
+UR  - http://arxiv.org/abs/2111.08389
+ER  - 
+
+TY  - JOUR
+AU  - Ye, Weiquan
+AU  - Li, Zhijun
+AU  - Yang, Chenguang
+AU  - Sun, Junjie
+AU  - Su, Chun Yi
+AU  - Lu, Renquan
+DA  - 2015/10//
+DO  - 10.1109/TCYB.2015.2478154
+IS  - 10
+PB  - Institute of Electrical and Electronics Engineers Inc.
+PY  - 2015
+SP  - 2423
+EP  - 2434
+TI  - Vision-based human tracking control of a wheeled inverted pendulum robot
+T2  - IEEE Transactions on Cybernetics
+VL  - 46
+ER  - 
+
+TY  - CONF
+AU  - Zimit, Aminu Yahaya
+AU  - Yap, Hwa Jen
+AU  - Hamza, Mukhtar Fatihu
+AU  - Siradjuddin, Indrazno
+AU  - Hendrik, Billy
+AU  - Herawan, Tutut
+DO  - 10.1007/978-3-319-95165-2_48
+PB  - Springer Verlag
+PY  - 2018
+SN  - 9783319951645
+SP  - 683
+EP  - 698
+TI  - Modelling and experimental analysis two-wheeled self balance robot using PID controller
+T2  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+VL  - 10961 LNCS
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Chenguang
+AU  - Li, Zhijun
+AU  - Li, Jing
+DA  - 2013/2//
+DO  - 10.1109/TSMCB.2012.2198813
+IS  - 1
+PY  - 2013
+SP  - 24
+EP  - 36
+TI  - Trajectory planning and optimized adaptive control for a class of wheeled inverted pendulum vehicle models
+T2  - IEEE Transactions on Cybernetics
+VL  - 43
+ER  - 
+
+TY  - JOUR
+AU  - Xu, Jian Xin
+AU  - Guo, Zhao Qin
+AU  - Lee, Tong Heng
+DO  - 10.1109/TIE.2013.2282594
+IS  - 7
+PB  - Institute of Electrical and Electronics Engineers Inc.
+PY  - 2014
+SP  - 3671
+EP  - 3681
+TI  - Design and implementation of integral sliding-mode control on an underactuated two-wheeled mobile robot
+T2  - IEEE Transactions on Industrial Electronics
+VL  - 61
+ER  - 
+
+TY  - RPRT
+AU  - Hsu, Chun-Fei
+AU  - Su, Chien-Ting
+AU  - Kao, Wei-Fu
+AU  - Lee, Bore-Kuen
+TI  - VISION-BASED LINE-FOLLOWING CONTROL OF A TWO-WHEEL SELF-BALANCING ROBOT
+ER  - 
+
+TY  - JOUR
+AU  - Rahman, MD Muhaimin
+AU  - Rashid, S. M. Hasanur
+AU  - Hossain, M. M.
+DA  - 2018/12//
+DO  - 10.1186/s40638-018-0091-9
+IS  - 1
+PB  - Springer Science and Business Media LLC
+PY  - 2018
+TI  - Implementation of Q learning and deep Q network for controlling a self balancing robot model
+T2  - Robotics and Biomimetics
+VL  - 5
+ER  - 
+
+TY  - JOUR
+AU  - Iswanto, Iswanto
+AU  - Ma'arif, Alfian
+AU  - Maharani Raharja, Nia
+AU  - Hariadi, Tony Khristanto
+AU  - Shomad, Muhammad Abdus
+DO  - 10.28991/esj-2021-SP1-016
+IS  - Special issue
+PB  - Ital Publication
+PY  - 2020
+SP  - 241
+EP  - 261
+TI  - Using a Combination of PID Control and Kalman Filter to Design of IoT-based Telepresence Self-balancing Robots during COVID-19 Pandemic
+T2  - Emerging Science Journal
+VL  - 4
+ER  - 
+
+TY  - JOUR
+AU  - Sun, Wei
+AU  - Su, Shun Feng
+AU  - Xia, Jianwei
+AU  - Wu, Yuqiang
+DA  - 2020/5//
+DO  - 10.1109/TCYB.2018.2884707
+IS  - 5
+PB  - Institute of Electrical and Electronics Engineers Inc.
+PY  - 2020
+SP  - 1867
+EP  - 1876
+TI  - Adaptive Tracking Control of Wheeled Inverted Pendulums with Periodic Disturbances
+T2  - IEEE Transactions on Cybernetics
+VL  - 50
+ER  - 
+
+TY  - JOUR
+AU  - Setiawan, Agus
+AU  - Susilo, Deddy
+AU  - Dewantoro, Gunawan
+TI  - SELF-BALANCING ROBOT BERODA DUA DENGAN METODE PID
+ER  - 
+
+TY  - JOUR
+AU  - Rostami, Seyyed Mohammad Hosseini
+AU  - Sangaiah, Arun Kumar
+AU  - Wang, Jin
+AU  - Kim, Hye jin
+DA  - 2018/12//
+DO  - 10.1186/s13640-018-0319-1
+IS  - 1
+PB  - Springer International Publishing
+PY  - 2018
+TI  - Real-time obstacle avoidance of mobile robots using state-dependent Riccati equation approach
+T2  - Eurasip Journal on Image and Video Processing
+VL  - 2018
+ER  - 
+
+TY  - JOUR
+AU  - Nikpour, Mostafa
+AU  - Huang, Loulin
+AU  - Al-Jumaily, Ahmed M.
+DO  - 10.1109/ACCESS.2020.2976503
+PB  - Institute of Electrical and Electronics Engineers Inc.
+PY  - 2020
+SP  - 45221
+EP  - 45230
+TI  - Stability and Direction Control of a Two-Wheeled Robotic Wheelchair through a Movable Mechanism
+T2  - IEEE Access
+VL  - 8
+ER  - 
+
+TY  - JOUR
+AU  - Krishna, Ghanta Sai
+AU  - Sumith, Dyavat
+AU  - Akshay, Garika
+DA  - 2022/7//
+PY  - 2022
+TI  - Epersist: A Self Balancing Robot Using PID Controller And Deep Reinforcement Learning
+UR  - http://arxiv.org/abs/2207.11431
+ER  - 
+
+TY  - JOUR
+AU  - Kim, Sangtae
+AU  - Kwon, Sangjoo
+DA  - 2017/12//
+DO  - 10.1109/TMECH.2017.2767085
+IS  - 6
+PB  - Institute of Electrical and Electronics Engineers Inc.
+PY  - 2017
+SP  - 2803
+EP  - 2808
+TI  - Nonlinear optimal control design for underactuated two-wheeled inverted pendulum mobile platform
+T2  - IEEE/ASME Transactions on Mechatronics
+VL  - 22
+ER  - 
+
+TY  - JOUR
+AU  - Mayr, Johannes
+AU  - Spanlang, Franz
+AU  - Gattringer, Hubert
+DA  - 2015/9//
+DO  - 10.1016/j.mechatronics.2015.04.019
+PB  - Elsevier Ltd
+PY  - 2015
+SP  - 1
+EP  - 10
+TI  - Mechatronic design of a self-balancing three-dimensional inertia wheel pendulum
+T2  - Mechatronics
+VL  - 30
+ER  - 
+
+TY  - CONF
+AU  - Nikita, T.
+AU  - Prajwal, K. T.
+DA  - 2021/6//
+DO  - 10.1109/ICOEI51242.2021.9453091
+PB  - Institute of Electrical and Electronics Engineers Inc.
+PY  - 2021
+SN  - 9781665415712
+SP  - 1
+EP  - 4
+TI  - PID Controller Based Two Wheeled Self Balancing Robot
+T2  - Proceedings of the 5th International Conference on Trends in Electronics and Informatics, ICOEI 2021
+ER  - 
+
+TY  - JOUR
+AU  - Johnson, Thomas
+AU  - Zhou, Siteng
+AU  - Cheah, Wei
+AU  - Mansell, Warren
+AU  - Young, Rupert
+AU  - Watson, Simon
+DA  - 2020/9//
+DO  - 10.1007/s10846-020-01158-4
+IS  - 3-4
+PB  - Springer
+PY  - 2020
+SP  - 683
+EP  - 692
+TI  - Implementation of a Perceptual Controller for an Inverted Pendulum Robot
+T2  - Journal of Intelligent and Robotic Systems: Theory and Applications
+VL  - 99
+ER  - 
+
+TY  - CONF
+AU  - Jiménez, Fabián R.L.
+AU  - Ruge, Ilber A.R.
+AU  - Jiménez, Andrés F.L.
+DO  - 10.18687/LACCEI2020.1.1.556
+PB  - Latin American and Caribbean Consortium of Engineering Institutions
+PY  - 2020
+SN  - 9789585207141
+TI  - Modeling and control of a two wheeled auto-balancing robot: A didactic platform for control engineering education
+T2  - Proceedings of the LACCEI international Multi-conference for Engineering, Education and Technology
+ER  - 
+
+TY  - JOUR
+AU  - Huang, Jian
+AU  - Zhang, Mengshi
+AU  - Ri, Songhyok
+AU  - Xiong, Caihua
+AU  - Li, Zhijun
+AU  - Kang, Yu
+DA  - 2020/3//
+DO  - 10.1109/TIE.2019.2903778
+IS  - 3
+PB  - Institute of Electrical and Electronics Engineers Inc.
+PY  - 2020
+SP  - 2030
+EP  - 2041
+TI  - High-Order Disturbance-Observer-Based Sliding Mode Control for Mobile Wheeled Inverted Pendulum Systems
+T2  - IEEE Transactions on Industrial Electronics
+VL  - 67
+ER  - 
+
+TY  - CONF
+AU  - Velagic, Jasmin
+AU  - Kovac, Imran
+AU  - Panjevic, Adis
+AU  - Osmanovic, Adnan
+DA  - 2021/9//
+DO  - 10.1109/ELMAR52657.2021.9550938
+PB  - Croatian Society Electronics in Marine - ELMAR
+PY  - 2021
+SN  - 9781665444361
+SP  - 77
+EP  - 82
+TI  - Design and Control of Two-Wheeled and Self-Balancing Mobile Robot
+T2  - Proceedings Elmar - International Symposium Electronics in Marine
+VL  - 2021-September
+ER  - 
+
+TY  - RPRT
+AU  - Hsu, Chun-Fei
+AU  - Su, Chien-Ting
+AU  - Kao, Wei-Fu
+AU  - Lee, Bore-Kuen
+TI  - VISION-BASED LINE-FOLLOWING CONTROL OF A TWO-WHEEL SELF-BALANCING ROBOT
+ER  - 
+
+TY  - JOUR
+AU  - Ghaffari, Ali
+AU  - Shariati, Azadeh
+AU  - Shamekhi, Amir H.
+DA  - 2016/1//
+DO  - 10.1007/s11071-015-2321-9
+IS  - 1-2
+PB  - Springer Netherlands
+PY  - 2016
+SP  - 217
+EP  - 230
+TI  - A modified dynamical formulation for two-wheeled self-balancing robots
+T2  - Nonlinear Dynamics
+VL  - 83
+ER  - 
+
+TY  - JOUR
+AU  - Huang, Jian
+AU  - Ding, Feng
+AU  - Fukuda, Toshio
+AU  - Matsuno, Takayuki
+DO  - 10.1109/TCST.2012.2214439
+IS  - 5
+PY  - 2013
+SP  - 1607
+EP  - 1617
+TI  - Modeling and velocity control for a novel narrow vehicle based on mobile wheeled inverted pendulum
+T2  - IEEE Transactions on Control Systems Technology
+VL  - 21
+ER  - 
+
+TY  - JOUR
+AU  - Esmaeili, Nasim
+AU  - Alfi, Alireza
+AU  - Khosravi, Hossein
+DA  - 2017/9//
+DO  - 10.1007/s10846-017-0486-9
+IS  - 3-4
+PB  - Springer Netherlands
+PY  - 2017
+SP  - 601
+EP  - 613
+TI  - Balancing and Trajectory Tracking of Two-Wheeled Mobile Robot Using Backstepping Sliding Mode Control: Design and Experiments
+T2  - Journal of Intelligent and Robotic Systems: Theory and Applications
+VL  - 87
+ER  - 
+
+TY  - JOUR
+AU  - Díaz-Téllez, Juan
+AU  - García-Ramírez, Ruben Senen
+AU  - Pérez-Pérez, Jairo
+AU  - Estevez-Carreón, Jaime
+AU  - Carreón-Rosales, Miguel Angel
+DO  - 10.18196/jrc.v4i4.18208
+IS  - 4
+PB  - Department of Agribusiness, Universitas Muhammadiyah Yogyakarta
+PY  - 2023
+SP  - 491
+EP  - 499
+TI  - ROS-based Controller for a Two-Wheeled Self-Balancing Robot
+T2  - Journal of Robotics and Control (JRC)
+VL  - 4
+ER  - 
+
+TY  - RPRT
+AU  - Maniha Abdul Ghani, Nor
+AU  - Naim, Faradila
+AU  - Piow Yon, Tan
+TI  - Two Wheels Balancing Robot with Line Following Capability
+ER  - 
+
+TY  - CONF
+AU  - Abdelgawad, Abdelrahman
+AU  - Shohdy, Tarek
+AU  - Nada, Ayman
+DA  - 2024/6//
+DO  - 10.1016/j.ifacol.2024.07.399
+IS  - 9
+PB  - Elsevier B.V.
+PY  - 2024
+SP  - 217
+EP  - 222
+TI  - Model- and Data-Based Control of Self-Balancing Robots: Practical Educational Approach with LabVIEW and Arduino
+T2  - IFAC-PapersOnLine
+VL  - 58
+ER  - 
+
+TY  - JOUR
+AU  - Dai, Fuquan
+AU  - Gao, Xueshan
+AU  - Jiang, Shigong
+AU  - Guo, Wenzeng
+AU  - Liu, Yubai
+DA  - 2015/9//
+DO  - 10.1016/j.mechatronics.2015.06.011
+PB  - Elsevier Ltd
+PY  - 2015
+SP  - 116
+EP  - 125
+TI  - A two-wheeled inverted pendulum robot with friction compensation
+T2  - Mechatronics
+VL  - 30
+ER  - 
+
+TY  - JOUR
+AU  - Dao, Phuong Nam
+AU  - Liu, Yen Chen
+DA  - 2021/2//
+DO  - 10.1007/s12555-019-0912-9
+IS  - 2
+PB  - Institute of Control, Robotics and Systems
+PY  - 2021
+SP  - 1139
+EP  - 1150
+TI  - Adaptive Reinforcement Learning Strategy with Sliding Mode Control for Unknown and Disturbed Wheeled Inverted Pendulum
+T2  - International Journal of Control, Automation and Systems
+VL  - 19
+ER  - 
+
