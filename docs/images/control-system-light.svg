@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 964 478" width="964" height="478" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">TWSBR cascade PID control system</title>
+  <desc id="d">Speed PID sets the tilt-angle setpoint for the balance PID; the line PID adds differential steering; a mixer turns both into left and right motor PWM. Encoders, the MPU6050 with a Kalman filter and the QTR-8A line sensor close the three loops.</desc>
+  <defs><marker id="a-0969da" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0969da"/></marker><marker id="a-1a7f37" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1a7f37"/></marker><marker id="a-1f2328" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f2328"/></marker><marker id="a-9a6700" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9a6700"/></marker></defs>
+  <rect width="964" height="478" fill="#ffffff"/>
+  <polyline points="24,128 144,128" fill="none" stroke="#1f2328" stroke-width="1.8" marker-end="url(#a-1f2328)"/>
+  <text x="26" y="119" font-size="13.5" fill="#1f2328" font-weight="400" text-anchor="start">line<tspan font-size="0.72em" dy="4">sp</tspan><tspan dy="-4">​</tspan> = 0</text>
+  <text x="26" y="147" font-size="12" fill="#59636e" font-weight="400" text-anchor="start">line setpoint</text>
+  <polyline points="24,250 144,250" fill="none" stroke="#1f2328" stroke-width="1.8" marker-end="url(#a-1f2328)"/>
+  <text x="26" y="241" font-size="13.5" fill="#1f2328" font-weight="400" text-anchor="start">v<tspan font-size="0.72em" dy="4">sp</tspan><tspan dy="-4">​</tspan> = 1 m/s</text>
+  <text x="26" y="269" font-size="12" fill="#59636e" font-weight="400" text-anchor="start">speed setpoint</text>
+  <circle cx="160" cy="128" r="16" fill="#ffffff" stroke="#1a7f37" stroke-width="1.8"/>
+  <text x="160" y="133" font-size="15" fill="#1a7f37" font-weight="600" text-anchor="middle">Σ</text>
+  <text x="135" y="121" font-size="14" fill="#1f2328" font-weight="600" text-anchor="middle">+</text>
+  <text x="147" y="106" font-size="15" fill="#1a7f37" font-weight="600" text-anchor="middle">−</text>
+  <polyline points="176,128 198,128" fill="none" stroke="#1f2328" stroke-width="1.8" marker-end="url(#a-1f2328)"/>
+  <rect x="198" y="101.0" width="124" height="54.0" rx="8" fill="#dafbe1" stroke="#1a7f37" stroke-width="1.6"/>
+  <text x="260.0" y="125" font-size="14.5" fill="#1f2328" font-weight="600" text-anchor="middle">Line PID</text>
+  <text x="260.0" y="144" font-size="12" fill="#1a7f37" font-weight="400" text-anchor="middle">steering</text>
+  <polyline points="322,128 606,128" fill="none" stroke="#1f2328" stroke-width="1.8" marker-end="url(#a-1f2328)"/>
+  <text x="464.0" y="119" font-size="14" fill="#1f2328" font-weight="400" text-anchor="middle" font-style="italic">u<tspan font-size="0.72em" dy="4">steer</tspan><tspan dy="-4">​</tspan></text>
+  <text x="464.0" y="147" font-size="12" fill="#59636e" font-weight="400" text-anchor="middle">±100</text>
+  <circle cx="160" cy="250" r="16" fill="#ffffff" stroke="#9a6700" stroke-width="1.8"/>
+  <text x="160" y="255" font-size="15" fill="#9a6700" font-weight="600" text-anchor="middle">Σ</text>
+  <text x="135" y="243" font-size="14" fill="#1f2328" font-weight="600" text-anchor="middle">+</text>
+  <text x="147" y="284" font-size="15" fill="#9a6700" font-weight="600" text-anchor="middle">−</text>
+  <polyline points="176,250 198,250" fill="none" stroke="#1f2328" stroke-width="1.8" marker-end="url(#a-1f2328)"/>
+  <rect x="198" y="223.0" width="124" height="54.0" rx="8" fill="#fff8c5" stroke="#9a6700" stroke-width="1.6"/>
+  <text x="260.0" y="247" font-size="14.5" fill="#1f2328" font-weight="600" text-anchor="middle">Speed PID</text>
+  <text x="260.0" y="266" font-size="12" fill="#9a6700" font-weight="400" text-anchor="middle">outer loop</text>
+  <polyline points="322,250 372,250" fill="none" stroke="#1f2328" stroke-width="1.8" marker-end="url(#a-1f2328)"/>
+  <text x="337.0" y="241" font-size="14" fill="#1f2328" font-weight="400" text-anchor="middle" font-style="italic">θ<tspan font-size="0.72em" dy="4">sp</tspan><tspan dy="-4">​</tspan></text>
+  <text x="337.0" y="269" font-size="12" fill="#59636e" font-weight="400" text-anchor="middle">±2°</text>
+  <circle cx="388" cy="250" r="16" fill="#ffffff" stroke="#0969da" stroke-width="1.8"/>
+  <text x="388" y="255" font-size="15" fill="#0969da" font-weight="600" text-anchor="middle">Σ</text>
+  <text x="363" y="243" font-size="14" fill="#1f2328" font-weight="600" text-anchor="middle">+</text>
+  <text x="375" y="284" font-size="15" fill="#0969da" font-weight="600" text-anchor="middle">−</text>
+  <polyline points="404,250 426,250" fill="none" stroke="#1f2328" stroke-width="1.8" marker-end="url(#a-1f2328)"/>
+  <rect x="426" y="223.0" width="124" height="54.0" rx="8" fill="#ddf4ff" stroke="#0969da" stroke-width="1.6"/>
+  <text x="488.0" y="247" font-size="14.5" fill="#1f2328" font-weight="600" text-anchor="middle">Balance PID</text>
+  <text x="488.0" y="266" font-size="12" fill="#0969da" font-weight="400" text-anchor="middle">inner loop</text>
+  <polyline points="550,250 606,250" fill="none" stroke="#1f2328" stroke-width="1.8" marker-end="url(#a-1f2328)"/>
+  <text x="578.0" y="241" font-size="14" fill="#1f2328" font-weight="400" text-anchor="middle" font-style="italic">u<tspan font-size="0.72em" dy="4">bal</tspan><tspan dy="-4">​</tspan></text>
+  <rect x="606" y="90" width="126" height="198" rx="8" fill="#f6f8fa" stroke="#57606a" stroke-width="1.6"/>
+  <text x="669.0" y="177.0" font-size="14.5" fill="#1f2328" font-weight="600" text-anchor="middle">Motor mixer</text>
+  <text x="669.0" y="199.0" font-size="12.5" fill="#59636e" font-weight="400" text-anchor="middle">u<tspan font-size="0.72em" dy="4">bal</tspan><tspan dy="-4">​</tspan> ∓ u<tspan font-size="0.72em" dy="4">steer</tspan><tspan dy="-4">​</tspan></text>
+  <text x="669.0" y="219.0" font-size="12" fill="#59636e" font-weight="400" text-anchor="middle">clamp ±255</text>
+  <polyline points="732,168 806,168" fill="none" stroke="#1f2328" stroke-width="1.8" marker-end="url(#a-1f2328)"/>
+  <text x="769.0" y="159" font-size="13" fill="#1f2328" font-weight="400" text-anchor="middle">PWM<tspan font-size="0.72em" dy="4">L</tspan><tspan dy="-4">​</tspan></text>
+  <polyline points="732,232 806,232" fill="none" stroke="#1f2328" stroke-width="1.8" marker-end="url(#a-1f2328)"/>
+  <text x="769.0" y="223" font-size="13" fill="#1f2328" font-weight="400" text-anchor="middle">PWM<tspan font-size="0.72em" dy="4">R</tspan><tspan dy="-4">​</tspan></text>
+  <rect x="806" y="106" width="136" height="166" rx="8" fill="#f6f8fa" stroke="#57606a" stroke-width="1.6"/>
+  <text x="874.0" y="185.0" font-size="16" fill="#1f2328" font-weight="600" text-anchor="middle">Robot</text>
+  <text x="874.0" y="206.0" font-size="12" fill="#59636e" font-weight="400" text-anchor="middle">2 × BLDC motor</text>
+  <rect x="622" y="10" width="320" height="48" rx="8" fill="#dafbe1" stroke="#1a7f37" stroke-width="1.6"/>
+  <text x="782.0" y="30" font-size="13.5" fill="#1f2328" font-weight="600" text-anchor="middle">QTR-8A line sensor (8 × IR)</text>
+  <text x="782.0" y="48" font-size="12" fill="#59636e" font-weight="400" text-anchor="middle">weighted average → line position</text>
+  <polyline points="908,106 908,58" fill="none" stroke="#1a7f37" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#a-1a7f37)"/>
+  <polyline points="622,34.0 160,34.0 160,112" fill="none" stroke="#1a7f37" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#a-1a7f37)"/>
+  <text x="391.0" y="27.0" font-size="12.5" fill="#1a7f37" font-weight="400" text-anchor="middle">line position</text>
+  <rect x="606" y="310" width="244" height="48" rx="8" fill="#ddf4ff" stroke="#0969da" stroke-width="1.6"/>
+  <text x="728.0" y="330" font-size="13.5" fill="#1f2328" font-weight="600" text-anchor="middle">MPU6050 IMU</text>
+  <text x="728.0" y="348" font-size="12" fill="#59636e" font-weight="400" text-anchor="middle">gyro + accel → Kalman filter</text>
+  <polyline points="828,272 828,310" fill="none" stroke="#0969da" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#a-0969da)"/>
+  <polyline points="606,334.0 388,334.0 388,266" fill="none" stroke="#0969da" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#a-0969da)"/>
+  <text x="497.0" y="327.0" font-size="12.5" fill="#0969da" font-weight="400" text-anchor="middle">tilt angle θ</text>
+  <rect x="606" y="384" width="336" height="48" rx="8" fill="#fff8c5" stroke="#9a6700" stroke-width="1.6"/>
+  <text x="774.0" y="404" font-size="13.5" fill="#1f2328" font-weight="600" text-anchor="middle">Wheel encoders (left, right)</text>
+  <text x="774.0" y="422" font-size="12" fill="#59636e" font-weight="400" text-anchor="middle">v = (v<tspan font-size="0.72em" dy="4">L</tspan><tspan dy="-4">​</tspan> + v<tspan font-size="0.72em" dy="4">R</tspan><tspan dy="-4">​</tspan>) / 2</text>
+  <polyline points="924,272 924,384" fill="none" stroke="#9a6700" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#a-9a6700)"/>
+  <polyline points="606,408.0 160,408.0 160,266" fill="none" stroke="#9a6700" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#a-9a6700)"/>
+  <text x="383.0" y="401.0" font-size="12.5" fill="#9a6700" font-weight="400" text-anchor="middle">wheel speed v</text>
+  <line x1="24" y1="458" x2="50" y2="458" stroke="#1f2328" stroke-width="1.8"/>
+  <text x="58" y="462" font-size="12" fill="#59636e" font-weight="400" text-anchor="start">control signal</text>
+  <line x1="164" y1="458" x2="190" y2="458" stroke="#9a6700" stroke-width="1.8" stroke-dasharray="7 5"/>
+  <text x="198" y="462" font-size="12" fill="#59636e" font-weight="400" text-anchor="start">speed feedback</text>
+  <line x1="309" y1="458" x2="335" y2="458" stroke="#0969da" stroke-width="1.8" stroke-dasharray="7 5"/>
+  <text x="343" y="462" font-size="12" fill="#59636e" font-weight="400" text-anchor="start">angle feedback</text>
+  <line x1="454" y1="458" x2="480" y2="458" stroke="#1a7f37" stroke-width="1.8" stroke-dasharray="7 5"/>
+  <text x="488" y="462" font-size="12" fill="#59636e" font-weight="400" text-anchor="start">line feedback</text>
+  <text x="942" y="462" font-size="12" fill="#59636e" font-weight="400" text-anchor="end">all loops run every 10 ms</text>
+</svg>

@@ -37,7 +37,10 @@ the line, but it stays on it.
 
 ## How it works
 
-![Control system diagram](docs/images/control-system.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/images/control-system-dark.svg">
+  <img src="docs/images/control-system-light.svg" alt="Cascade PID diagram: the speed PID sets the tilt-angle setpoint for the balance PID, the line PID adds steering, a mixer drives the two motors, and encoders, IMU and line sensor feed back">
+</picture>
 
 Every 10 ms the robot reads its sensors and runs three PID loops:
 
@@ -93,7 +96,8 @@ tips past ±45°.
 | MPU6050 SDA / SCL | 35 / 9 | QTR-8A outputs 1 … 8 | 1 … 8 |
 | Battery sense | 21 | | |
 
-Diagram sources (draw.io, Fritzing) are in [`docs/diagrams`](docs/diagrams).
+Diagram sources (draw.io, Fritzing, and the script that draws the control diagram) are in
+[`docs/diagrams`](docs/diagrams).
 
 ## Firmware
 

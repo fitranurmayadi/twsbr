@@ -108,7 +108,10 @@ Tiga kontroler PID bekerja bersamaan:
 
 Kalman filter menggabungkan akselerometer dan giroskop untuk estimasi sudut yang stabil.
 
-![Diagram sistem kontrol](images/control-system.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/control-system-dark.svg">
+  <img src="images/control-system-light.svg" alt="Diagram sistem kontrol cascade PID">
+</picture>
 
 ### 3.3 Pengujian
 
